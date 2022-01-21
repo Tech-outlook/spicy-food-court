@@ -122,11 +122,15 @@ body {
     color: black;
 }
 
-/*@media (max-width: 785px) {
+@media (max-width: 785px) {
   .cards {
     flex-direction: column;
   }
   .cards div {
     margin: 20px 0px;
   }
-}*/
+  .Home-bg-container{
+      justify-content: flex-end;
+      padding-bottom: 30px;
+  }
+}
