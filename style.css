@@ -70,21 +70,22 @@ body {
   cursor: pointer;
 }
 
-.WCU-Section {
-  padding: 0px 50px;
-  padding-top: 15vh;
+.WCU-section {
   height: 100vh;
   width: 100%;
+  padding: 0px 50px;
+  padding-top: 15vh;
 }
-.WCU-Section h1 {
+
+.WCU-section h1 {
   color: green;
   text-transform: capitalize;
-  font-family: "bree serif";
+  font-family: "Bree serif";
 }
-.WCU-Section p {
+.WCU-section p {
   color: black;
   font-size: 22px;
-  font-family: "bree serif";
+  font-family: "Bree serif";
   text-transform: capitalize;
   padding-top: 20px;
 }
@@ -93,48 +94,48 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-top: 30px;
+  margin-top: 30px;
 }
 .cards div {
+  background-color: lightgoldenrodyellow;
+  margin: 0px 20px;
   height: 350px;
   width: 400px;
-  margin: 0px 20px;
-  border-radius: 20px;
-  border: 2px solid darkcyan;
-  background: lightgoldenrodyellow;
 
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
+  border-radius: 20px;
 }
+
 .cards div img {
   height: 100px;
   width: 100px;
 }
-.cards div h1 {
+
+.cards div h1{
   font-size: 30px;
   color: darkcyan;
 }
-.cards div p {
+
+.cards div p{
   text-align: center;
   font-size: 18px;
   color: black;
 }
-.cards div span{
-  color: green;
-}
 
-@media (max-width: 991px) {
-  .cards {
+@media (max-width :991px){
+  .cards{
     flex-direction: column;
   }
-  .cards div {
+  .cards div{
     margin: 20px 0px;
   }
   .Home-bg-container {
     justify-content: flex-end;
     padding-bottom: 100px;
   }
+  
 }
